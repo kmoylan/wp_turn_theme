@@ -14,46 +14,9 @@ body{
 	<div class="hard"><h1>Get to know POD Consulting</h1>
 	Just turn the page to see what we're all about.
 	</div>
-	<div>
-		<h1>
-			<?php 
-				echo(get_page( 155 )->post_title)?> 
-		</h1>
-		<div>
-			<?php 
-				echo(get_page( 155 )->post_content)?> 
-		</div>
-	</div>
-	<div>
-		<h1>
-			<?php 
-				echo(get_page( 151 )->post_title)?> 
-		</h1>
-		<div>
-			<?php 
-				echo(get_page( 151 )->post_content)?> 
-		</div>
-	</div>
-	<div>
-		<h1>
-			<?php 
-				echo(get_page( 153 )->post_title)?> 
-		</h1>
-		<div>
-			<?php 
-				echo(get_page( 153 )->post_content)?> 
-		</div>
-	</div>
-	<div>
-		<h1>
-			<?php 
-				echo(get_page( 26 )->post_title)?> 
-		</h1>
-		<div>
-			<?php 
-				echo(get_page( 26 )->post_content)?> 
-		</div>
-	</div>
+	<?php 
+		echo (build_flipbook_pages());
+	?>
 	<div class="hard"> The End </div>
 </div>
 <script type="text/javascript">
