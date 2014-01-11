@@ -1,4 +1,7 @@
 <?php
+require_once(  get_stylesheet_directory() .'/settings.php' );
+
+
 function reg_pod_turn()
 {
 	wp_register_script('turn', includes_url().'turn/turn.js/turn.js', array('jquery'));
