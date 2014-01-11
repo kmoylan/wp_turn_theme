@@ -64,6 +64,10 @@ add_action( 'admin_init', 'flipbook_settings_init' );
 function flipbook_settings_callback() {
 }
 
+function flipbook_num_callback(){
+	$option = get_option('flipbook_num');
+	echo "<input type='text' value='$option' name='flipbook_num' style='width: 30px;' /> <p> Increase the number of pages by changing the number in the field above.";
+}
 function flipbook_page_callback($i){
 	$option = get_option('flipbook_page_'.$i);
 	$name = 'flipbook_page_'.$i;
