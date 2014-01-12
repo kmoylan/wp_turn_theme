@@ -8,10 +8,11 @@ body{
 	background:#eee;
 }
 
+
 </style>
 
 <div id="flipbook">
-	<div class="hard"><h1>Get to know POD Consulting</h1>
+	<div class="hard"><h1 class="mytitle">Get to know POD Consulting</h1>
 	Just turn the page to see what we're all about.
 	</div>
 	<?php 

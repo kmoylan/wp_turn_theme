@@ -51,7 +51,7 @@ function build_flipbook_pages(){
  */
 function create_flipbook_page_div($page_id){
 	$output  ="<div>";
-	$output .="  <h1>";
+	$output .="  <h1 class=mytitle>";
 	$output .=      get_page( $page_id )->post_title;
 	$output .="  </h1>";
 	$output .="  <div>";
